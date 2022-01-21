@@ -6,10 +6,17 @@ body{
    padding-left: 150px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     body{
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
